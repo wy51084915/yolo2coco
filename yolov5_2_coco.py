@@ -225,7 +225,7 @@ class YOLOV5ToCOCO():
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser('Datasets converter from YOLOV5 to COCO')
-    parser.add_argument('--data_dir', type=str, default='datasets/YOLOV5',
+    parser.add_argument('--data_dir', type=str, default='dataset/firesmoke',
                         help='Dataset root path')
     parser.add_argument('--mode_list', type=str, default='train,val',
                         help='generate which mode')
